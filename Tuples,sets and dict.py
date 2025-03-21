@@ -1,31 +1,31 @@
 # CREATING TUPLES;;
-# t1=()
-# print(t1)   #empty tuple
+t1=()
+print(t1)   #empty tuple
 
 # CREATE A TUPLE WITH A SINGLE ITEM;;
-# t2=("Hello",)
-# print(t2)
-# print(type(t2))
+t2=("Hello",)
+print(t2)
+print(type(t2))
 
-# t3=(1,2,3,4)
-# print(t3)
+t3=(1,2,3,4)
+print(t3)
 
-# t4=(1,2.5,True,[1,2,3])
-# print(t4)
+t4=(1,2.5,True,[1,2,3])
+print(t4)
 
-# t5=(1,2,3,(4,5))
-# print(type(t5))
+t5=(1,2,3,(4,5))
+print(type(t5))
 
-# t6=tuple("Khushbu")    #using type conversion
-# print(t6)
+t6=tuple("Khushbu")    #using type conversion
+print(t6)
 
 # HOW TO ACCESS ITEMS IN A TUPLE;;
-# t=(1,2,3,4,5)
-# print(t)
-# print(t[0])
-# print(t[-1])    #indexing
-# print(t[3:4])
-# print(t[1:3])    #slicing
+t=(1,2,3,4,5)
+print(t)
+print(t[0])
+print(t[-1])    #indexing
+print(t[3:4])
+print(t[1:3])    #slicing
 
 # HOW TO EDIT ITEMS IN A TUPLE;;
 # t=(1,2,3,4,5,6,7)
